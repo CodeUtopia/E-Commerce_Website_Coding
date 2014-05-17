@@ -1,0 +1,42 @@
+<!-- mainMenu.html -->
+
+<div id="mainMenu" onmouseout="hide()">
+  <ul class="pageLinks">
+    <li><a href="index.php" onmouseover="show('m1')">Home</a></li>
+	<li><a href="#" onmouseover="show('m2')">E-Store</a>
+      <div id="m2" onmouseover="show('m2')">
+        <a href="eStore.php?displayLoginClick=true">Visit our e-store</a>
+        <a href="catalog.php">Browse our catalog</a>
+        <a href="registerCustomer.php">Register</a>
+        <a href="logIn.php">Login</a>
+        <a href="purchasing.php?prod=view">View your shopping cart</a>
+        <a href="paymentByUser.php">Checkout</a>
+        <a href="logOut.php">Logout</a>
+      </div>
+    </li>
+	<li>
+	  <a href="#" onmouseover="show('m3')">About Us</a>
+	  <div id="m3" onmouseover="show('m3')">
+        <a href="vision.php">Vision and Mission</a>
+        <a href="employment.php">Employment Opportunities</a>
+        <a href="news.php">News Archive</a>
+      </div>
+	</li>
+    <li>
+      <a href="#" onmouseover="show('m4')">Products and Services</a> 
+      <div id="m4" onmouseover="show('m4')">
+        <a href="catalog.php">Product Catalog</a>
+        <a href="featuredProducts.php">Featured Products</a>
+        <a href="services.php">Services</a>
+		<a href="suppliers.php">Suppliers</a>
+      </div>
+    </li>
+	<li>
+	  <a href="#" onmouseover="show('m5')">Contact Us</a> 
+	  <div id="m5" onmouseover="show('m5')">
+	    <a href="locations.php">Our Locations</a>
+	    <a href="feedback.php">Give us feedback</a>
+	  </div>
+    </li>
+  </ul>
+</div>
