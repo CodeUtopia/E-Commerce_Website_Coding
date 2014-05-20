@@ -5,24 +5,16 @@
 * http://lolin01.nvcc.edu/student215/Business_Project_Final/index.php
 
 * To best experiment with website at the link, start with registering with the website
-* (Note: if you want to skip registering, you can dive into the website with
-     username: Holon 
-     password: Matrix
-  )
-  
 * at the Registration link under the 'E-Store' drop down menu on top menu bar.
 * (Note: if you want to skip registering, you can dive into the website with
-     username: Holon 
-     password: Matrix
-  )
+*     username: Holon 
+*     password: Matrix
+*  )
+
 * After sucessful registration, go to the 'login' link under 'E-store' menu
-* to login on website (Note: you can tell if you are logged in or not by seeing to the top right
-<<<<<<< HEAD
-      of website asking you to login or log out; you also get sent to a page that
-      tells you of your login status)
-=======
-*     of website asking you to login or log out.)
->>>>>>> ff432d84bc85ac9a9ffe5d3592adae369d62b200
+* to login on website (Note: you can tell if you are logged in or not by seeing 
+*     to the top right of website asking you to login or log out; you 
+*	  also get sent to a page that tells you of your login status)
 
 * After logging in, you can make purchases at the catalog.
 * The shopping cart updates and maintains itself over the user session.
