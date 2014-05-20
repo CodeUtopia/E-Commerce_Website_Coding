@@ -47,12 +47,6 @@ session_start();
                 <td><input type="submit" value="Login" /></td>
                 <td><input type="reset" value="Reset Form" /></td>
               </tr>
-              <tr>
-                <td valign="top" colspan="2">
-				 If the username and passwordare not accepted,<br />
-                 either username and/or password was incorrect.<br />
-                 In that case, please re-enter the correct login information.</td>
-              </tr>
             </table>
           </form>
         </div>

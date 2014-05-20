@@ -28,6 +28,9 @@
           vendors. Our product range is comprehensive to fill your 
           arts and crafts needs. All orders can be shipped anywhere
           in the world fast and securely.</p>
+		  <p>You may go to the E-Store dropdown menu to view the catalog or 
+		  register as user. Registration is necessary if you wish to be able
+		  to login. Only logged users may purchase or send feedback.</p>
         </div>
 		<div id="rightBlock">
 		  <div id="image">

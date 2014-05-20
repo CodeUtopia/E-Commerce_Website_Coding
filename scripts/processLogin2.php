@@ -22,10 +22,9 @@ if ($numRecords == 1)
         $_SESSION['customer_last_name'] = $row['customer_last_name'];
         $prod = $_SESSION['purchasePending'] ;
 		
-		echo "the customer id is ".$_SESSION['customer_id'].".<br />";
 		
-		$goto = "Location: logIn.php";
-        		
+		$goto = "Location: ../successfulLogIn.php";
+        /*		
         if ($prod != "")
         {
             unset($_SESSION['purchasePending']);
@@ -35,15 +34,18 @@ if ($numRecords == 1)
         {
             $ref = getenv("HTTP_REFERER"); 
             $goto  = 'Location: ' . $ref;
-        } 
-		echo "successfully went to logIn.php";
+        }  */
         header($goto); 
     }
 	else
 	{
-		header('Location: ../logIn.php?retry=true');
+		//header('Location: ../logIn.php?retry=true');
+		header('Location: ../failedLogIn.php');   
 	}
 }
-//Either no records were received or the password did not match
-header('Location: ../logIn.php?retry=true');  
+else {
+  //Either no records were received or the password did not match
+  //header('Location: ../logIn.php?retry=true');
+  header('Location: ../failedLogIn.php');  
+} 
 ?>
