@@ -10,7 +10,7 @@ if(isset($_SESSION["customer_id"])){
 session_unset();
 session_destroy();
 ?>
-
+<!--Program and Code by Sattyik Kundu-->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Nature's Source - Logging Out</title>

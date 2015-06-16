@@ -1,6 +1,6 @@
 <?php session_start(); ?>
-
 <!-- featured.php -->
+<!--Program and Code by Sattyik Kundu-->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Arts N' Crafts Depot - Featured Products</title>

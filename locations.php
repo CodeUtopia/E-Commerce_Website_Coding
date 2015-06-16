@@ -1,6 +1,6 @@
 <?php session_start(); ?>
-
 <!-- locations.php -->
+<!--Program and Code by Sattyik Kundu-->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Nature's Source - Store Locations</title>

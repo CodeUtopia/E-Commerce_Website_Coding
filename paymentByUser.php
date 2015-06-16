@@ -6,7 +6,7 @@ if (preg_match('/purchasing.php/', $_SERVER['HTTP_REFERER']) == 0)
     header('Location: purchasing.php?prod=view');
 }
 ?>
-
+<!--Program and Code by Sattyik Kundu-->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Arts N' Crafts Depot - User Payment</title>

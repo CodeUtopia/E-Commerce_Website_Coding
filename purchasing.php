@@ -7,7 +7,7 @@ if(isset($_SESSION['customer_id'])== false){
     header('Location: logIn.php');
 }
 ?>
-
+<!--Program and Code by Sattyik Kundu-->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Arts N' Crafts Depot</title>

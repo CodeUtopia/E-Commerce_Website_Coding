@@ -1,3 +1,4 @@
+*Program and Code by Sattyik Kundu
   
 * Enclosed is the codes for my E-commerce Website which centers on selling Art Supplies.
 
